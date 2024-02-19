@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #323452;
+  color: white;
+}
+
+main{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+input[type=text]{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  width: 100%;
+}
+input[type=submit]{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #544DC9;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.task-list{
+  margin-top: 2rem;
+}
+.task-list h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#tasks{
+  background-color: #5c58a3;
+  padding: 1.5rem;
+  border: 1px solid black;
+}
+.task{
+  margin-bottom: 1rem;
+  background-color: #433f81;
+  padding: 1rem;
+}
+button{
+  font-size: 1rem;
+  padding: .5rem;
+}
+.edit{
+  background-color: aqua;
+  color: black;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.delete{
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.complete{
+  background-color: #5c05e9;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.mark-completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+
+
